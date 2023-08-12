@@ -1,0 +1,41 @@
+.box {
+  border: 1px solid black;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.box h3 {
+  font-style: italic;
+}
+.item-img {
+  width: 200px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.win {
+  border: 20px solid green;
+  color:blue;
+}
+.lose {
+  border: 15px solid red;
+  color: red;
+}
+.tie {
+  border: 10px solid gray;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    height: 100vh;
+  } 
+  .main {
+    display: inline-block;
+    width:100%;
+    text-align: center;
+  }
+} 
